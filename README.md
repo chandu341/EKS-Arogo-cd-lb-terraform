@@ -1,11 +1,4 @@
 # 🚀 AWS EKS Cluster with ArgoCD, Prometheus, and More - Terraform Project
-[![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/jdzF8kTtw2)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@amanpathakdevops)
-[![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
-[![Serverless](https://img.shields.io/badge/Serverless-%E2%9A%A1%EF%B8%8F-blueviolet)](https://www.serverless.com)
-[![AWS](https://img.shields.io/badge/AWS-%F0%9F%9B%A1-orange)](https://aws.amazon.com)
-[![Terraform](https://img.shields.io/badge/Terraform-%E2%9C%A8-lightgrey)](https://www.terraform.io)
 
 Welcome to the Terraform project repository for setting up a fully functional, private AWS EKS cluster integrated with essential tools like ArgoCD, Prometheus, and Grafana. This repository provides everything you need to deploy and manage a secure and scalable Kubernetes environment on AWS.
 
@@ -20,7 +13,6 @@ This project automates the provisioning of a private EKS cluster on AWS, along w
 - **Modular Design**: The project is structured into reusable modules for easier management and customization.
 
 ### Architecture Diagram
-![Architecture Diagram](./assets/architecture-diagram.gif)
 
 ## 🚀 Getting Started
 
@@ -37,7 +29,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/eks-terraform-project.git
+   git clone <your-repo-url>
    cd eks-terraform-project
 
 2. **Deploy VPC and EC2: Run the following commands to deploy the VPC and an EC2 instance**:
@@ -58,14 +50,10 @@ Before you begin, ensure you have the following installed:
 
 ### 📖 Detailed Guide
 
-For a complete step-by-step guide, including screenshots and detailed explanations, please refer to the [blog post](https://amanpathakdevops.medium.com/). This post covers all the necessary steps to successfully implement this project.
+For a complete step-by-step guide, including screenshots and detailed explanations, please refer to the documentation. This covers all the necessary steps to successfully implement this project.
 
 ## Contributing
 We welcome contributions! If you have ideas for enhancements or find any issues, please open a pull request or file an issue.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions, suggestions, or feedback, please feel free to join the [Discord Server](https://lnkd.in/dsEdxpst).
+This project is licensed under the MIT License.

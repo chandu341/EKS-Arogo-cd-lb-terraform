@@ -192,3 +192,20 @@ resource "aws_security_group" "ec2-sg" {
     Name = var.eks-sg
   }
 }
+
+data "aws_iam_policy_document" "allow-s3" {
+  statement {
+    effect = "Allow"
+
+    actions = [
+      "s3:GetObject",
+      "s3:PutObject",
+      "s3:ListBucket"
+    ]
+
+    resources = [
+      "arn:aws:s3:::payroll-system-website",
+      "arn:aws:s3:::payroll-system-website//*"
+    ]
+  }
+}
