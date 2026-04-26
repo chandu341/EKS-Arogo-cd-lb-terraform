@@ -13,7 +13,7 @@ resource "aws_instance" "ec2" {
   }
 
   tags = {
-    Name = "eks-server-deploy"
+    Name = "Eks-server-deploy"
   }
 }
   
